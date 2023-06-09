@@ -1,0 +1,120 @@
+html,h1,h2,ul{/*jadi jika ingin mengedit banyak tag sekaligus tinggal pisahkan saja pakai koma*/
+	padding: 0;
+	margin: 0;
+}
+body{ /*jadi ini untuk mengedit tag body*/
+	background:#fafafd;
+	color: #7b7b80;
+	font-size: 12px;
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+}
+header{
+	background:#333;
+	padding: 20px 0; /*ini ukuran paddingnya jaraknya. untuk yang bagian pertama itu atas,bawah dan dan yang kedua itu kiri dan kanan*/
+}
+header ul{/*jadi ini akan mengedit tag ul yang ada di dalam tag header*/
+	display: flex;
+	padding: 0;
+	margin: 0;
+	justify-content: space-between;/*ini akan mengatur lokasi kontennya kalo space-between tu lokasinya menyebar*/
+}	
+header ul li{/*jadi ini akan mengedit tag li yang ada di dalam ul dan ada di dalam tag header*/
+	display: block;/*ini untuk mengubah defaultnya*/
+}
+header ul li a{/*jadi ini akan mengedit tag a yang ada di dalam tag li, ada di dalam tag ul dan ada di dalam tag header*/
+	color:#b0b0b0;
+	text-decoration: none;/*ini untuk menghilangkan garis bawahnya*/
+	padding-left: 10px;/*ini untuk memberi jarak*/
+	padding-right: 10px;
+}
+.kotak_besar{
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.anjay{
+	text-align: center;
+	background-color: #f3f3f6;
+	padding: 
+}
+.anjay .biru{
+	color:#0964c3;
+}
+.kotak{
+	text-align: center;
+	justify-content: center;
+}
+.kotak h1{/*ini akan mengedit tag h1 yang ada di dalam dic class kotak*/
+	font-size: 30px;
+	color: black;
+}
+.kotak h2{
+	font-size: 20px;
+	color: black;	
+}
+.kotak2{
+	color: black;
+	justify-content: center;
+	text-align: center;
+}
+.kotak_awal{
+	width: 1300px ;	
+	height: 1000px;
+	justify-content: center;
+	text-align: center;
+	color: black;
+}
+.kotak_awal,a{
+	text-decoration: none;
+
+}
+.foto, img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 150px;
+	/*height: 200px;*/
+	
+}
+
+.kotak_login{
+	width: 300px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: grey;
+	/*background-image: url("../foto/kuli.png");*/
+	border-radius: 2%;
+}
+.kotak_login, table{
+	color: black;
+}
+
+.kotak_login_besar{
+	/*background-color: lightgrey;*/
+	display: flex;
+	justify-content: center;
+	width: 90%;
+	height: 100vh;
+	align-items: center;
+}
+.interaksi{
+	position: relative;
+	left: 500px;
+	/*background-color: black;*/
+	display: flex;
+	width: 200px;
+	font-size: 18px;
+	justify-content: space-between;
+	align-items: center;
+}
+kotak_login,button{
+	color: grey;
+
+}
+
+
